@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" modified="2023-07-25T16:40:45.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KMGvwCQ9AXsaBOBDuARi" version="21.2.9" type="github">
+  <diagram name="Page-1" id="qN6cF5_uJqoMxkVaOUOC">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-1" value="Sales creates Lead in SFDC&lt;br&gt;Sales adds Opportunity in Lead info&lt;br&gt;Sales presents proposal to Customer (Lead)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-2" value="Customer (Lead) accepts Sales proposal" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-1" target="BV-Qnr_tQpEQSbUI6A2I-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-6" value="Sales marks opportunity as Closed-SOLD in SFDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-2" target="BV-Qnr_tQpEQSbUI6A2I-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-8" value="Sales requests Finance to assign a CRDDDST to the new SFDC account&lt;br&gt;New CRDDDST will also be used in EOM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-9" value="Sales requests BBM Account Support team to convert Lead into a new SFDC account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-10" value="Sales requests new contract agreement through new account in SFDC&lt;br&gt;Contracts team will action new contract request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-11" value="Sales Contracts team will ensure that the new customer is in a provincial business registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-12" value="Sales Contracts team sends new contract and new Master Agreement to customer for review, approval, and signature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-13" value="When Sales receives the signed contracts , Sales engages the appropriate team for implementation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-14" value="After implementation, Sales checks and ensures that billing is correct and revenue is assigned accordingly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="900" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-6" target="BV-Qnr_tQpEQSbUI6A2I-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="sourcePoint" />
+            <mxPoint x="140" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-6" target="BV-Qnr_tQpEQSbUI6A2I-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="100" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-9" target="BV-Qnr_tQpEQSbUI6A2I-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="400" as="sourcePoint" />
+            <mxPoint x="140" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-8" target="BV-Qnr_tQpEQSbUI6A2I-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="420" as="sourcePoint" />
+            <mxPoint x="150" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-12" target="BV-Qnr_tQpEQSbUI6A2I-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="520" as="sourcePoint" />
+            <mxPoint x="140" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-13" target="BV-Qnr_tQpEQSbUI6A2I-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="500" as="sourcePoint" />
+            <mxPoint x="140" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-25" value="Sales Contracts team also creates new Master Agreement for new customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-10" target="BV-Qnr_tQpEQSbUI6A2I-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="530" as="sourcePoint" />
+            <mxPoint x="-50" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-11" target="BV-Qnr_tQpEQSbUI6A2I-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="570" as="sourcePoint" />
+            <mxPoint x="-20" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BV-Qnr_tQpEQSbUI6A2I-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BV-Qnr_tQpEQSbUI6A2I-25" target="BV-Qnr_tQpEQSbUI6A2I-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="810" as="sourcePoint" />
+            <mxPoint x="-30" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
